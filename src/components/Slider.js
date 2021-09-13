@@ -5,7 +5,7 @@ import image1 from "../img/car2.jpeg";
 
 function Slider() {
   return (
-    <Carousel variant="dark" className="carousel"  >
+    <Carousel variant="dark" className="carousel w-90"  >
       <Carousel.Item>
         <img className="d-block w-100" src={image} alt="First slide" />
       </Carousel.Item>

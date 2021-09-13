@@ -66,7 +66,7 @@ function App() {
           <div>
             <DisplayInfo data={plate} />
           </div>
-        ) : <Placeholder/>}
+        ) : <Placeholder /> }
       </div>
     </div>
   );
