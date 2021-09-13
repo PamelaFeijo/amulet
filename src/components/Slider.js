@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import image from "../img/car4.jpg";
-import image2 from "../img/car2.jpeg";
+import image1 from "../img/car2.jpeg";
 
 function Slider() {
   return (
@@ -10,7 +10,7 @@ function Slider() {
         <img className="d-block w-100" src={image} alt="First slide" />
       </Carousel.Item>
       <Carousel.Item>
-        <img className="d-block w-100" src={image2} alt="Second slide" />
+        <img className="d-block w-100" src={image1} alt="Second slide" />
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={image} alt="Third slide" />

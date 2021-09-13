@@ -12,7 +12,7 @@ The application should then retrieve the following data from the VIN Number API:
 
 ## API
 
-Overheid.io [link](https://overheid.io/documentatie/voertuiggegevens).
+Overheid.io [link](https://overheid.io/documentatie/voertuiggegevens)
 
 ## Tech Stack
 

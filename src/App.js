@@ -4,21 +4,21 @@ import DisplayInfo from "./components/DisplayInfo";
 import Slider from "./components/Slider";
 import Placeholder from "./components/PlaceHolder";
 
+
 function App() {  
   const [plate, setPlate] = useState([]);
   const [input, setInput] = useState({
     plate: "",
   });
 
-  console.log("plate", plate);
-
+    
   async function fetchData(e) {
     e.preventDefault();
     if (input.plate === "") {
-      alert("Add a plate");
+      alert("Add a license plate number");
     } else {
       const data = await fetch(
-        `https://api.overheid.io/voertuiggegevens/${input.plate}?ovio-api-key=6f6678d7a945f648ad8a69f23cdecc7291baa395b0e991523535828613e72cfe`
+        `https://api.overheid.io/voertuiggegevens/${input.plate}?ovio-api-key=${process.env.REACT_APP_API_KEY}`
       )
         .then((res) => res.json())
         .then((data) => data);
