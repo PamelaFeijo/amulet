@@ -12,7 +12,17 @@ The application should then retrieve the following data from the VIN Number API:
 
 ## API
 
-Overheid.io [here](https://overheid.io/documentatie/voertuiggegevens).
+Overheid.io [link](https://overheid.io/documentatie/voertuiggegevens).
+
+## Tech Stack
+
+<ul>
+		<li>HTML/CSS</li>
+		<li>JavaScript</li>
+		<li>React</li>
+        <li>React Bootstrap</li>
+</ul>
+
 
 ## Installation and Setup Instructions
 
