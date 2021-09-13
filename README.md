@@ -42,5 +42,6 @@ To Visit App:
 
 ## Project Demo
 
-![screenshot](https://drive.google.com/drive/my-drive)
+![licenseplate](https://user-images.githubusercontent.com/64004289/133098295-d80405d9-941c-436a-a31a-39d65c2df240.gif)
+
 
