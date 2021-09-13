@@ -1,7 +1,6 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import image from "../img/car4.jpg";
-import image1 from "../img/car1.jpeg";
 import image2 from "../img/car2.jpeg";
 
 function Slider() {
