@@ -40,7 +40,7 @@ To Visit App:
 
 `localhost:3000`
 
-## Project Screenshot
+## Project Demo
 
 ![screenshot]()
 

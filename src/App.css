@@ -27,7 +27,7 @@
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
-  filter: grayscale(60%);
+  filter: grayscale(85%);
 }
 
 .inner-container{
@@ -68,7 +68,8 @@ input:valid{
 
 .card{
   background-color: white;
-  border-radius: 80px;
+  border-radius: 90px;
+  border-style: none;
   margin: -800px 10% 50px;
   text-align: left;
   padding-left: 20px;
@@ -81,8 +82,32 @@ input:valid{
 }
 
 .carousel{
-  margin-top: 500px;
-  margin-bottom: 50px;
+  margin-top: 400px;
+  margin-bottom: 130px;
   margin-left: 0 !important;
   margin-right: 0 !important;
+}
+
+@media screen and (min-width: 500px) {
+  .card{   
+    margin: -900px 10% 10px;   
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .card{   
+    margin: -1000px 10% 10px;   
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .card{   
+    margin: -1100px 10% 10px;   
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  .card{   
+    margin: -1300px 10% 10px;   
+  }
 }
